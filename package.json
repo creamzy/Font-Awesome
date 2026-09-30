@@ -3,10 +3,17 @@
   "description": "The iconic font and CSS framework",
   "version": "4.5.0",
   "style": "css/font-awesome.css",
-  "keywords": ["font", "awesome", "fontawesome", "icon", "font", "bootstrap"],
+  "keywords": [
+    "font",
+    "awesome",
+    "fontawesome",
+    "icon",
+    "font",
+    "bootstrap"
+  ],
   "homepage": "http://fontawesome.io/",
   "bugs": {
-    "url" : "http://github.com/FortAwesome/Font-Awesome/issues"
+    "url": "http://github.com/FortAwesome/Font-Awesome/issues"
   },
   "author": {
     "name": "Dave Gandy",
@@ -33,8 +40,9 @@
   ],
   "license": "(OFL-1.1 AND MIT)",
   "dependencies": {
+    "@vercel/analytics": "^2.0.1"
   },
-  "engines" : {
-    "node" : ">=0.10.3"
+  "engines": {
+    "node": ">=0.10.3"
   }
 }
